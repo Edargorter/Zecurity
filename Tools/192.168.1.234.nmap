@@ -1,0 +1,4 @@
+# Nmap 7.80 scan initiated Sat Jan  4 16:08:06 2020 as: nmap -A -oA 192.168.1.234 -vv
+Read data files from: /usr/local/bin/../share/nmap
+WARNING: No targets were specified, so 0 hosts scanned.
+# Nmap done at Sat Jan  4 16:08:06 2020 -- 0 IP addresses (0 hosts up) scanned in 0.36 seconds

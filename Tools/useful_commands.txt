@@ -1,0 +1,40 @@
+chmod u+x myfile.sh
+cp myfile.sh /usr/local/bin
+edit ~/.bash_profile and add the following line:
+
+alias myfile=./myfile.sh
+execute the following command-line:
+
+source ~/.bash_profile
+then you will be able to run your file as a program
+
+a a
+b b
+c c
+d d
+e e
+f f
+g g
+h a
+i b
+j c
+k d
+l e
+m f
+n g
+o a
+p b
+q c
+r d
+s e
+t f
+u g
+v a
+w b
+x c
+y d
+z e
+
+http://letmegooglethat.com/?q=fugue%20in%20eb20&fbclid=IwAR3EiICz3_5ethZ2iO27z7X_NlTdRq65C5GgM4qsDm11zepNRJ6np_wHmkA
+
+http://letmegooglethat.com/?q=fugue%20in%20eb20&fbclid=IwAR3EiICz3_5ethZ2iO27z7X_NlTdR    q65C5GgM4qsDm11zepNRJ6np_wHmkA
