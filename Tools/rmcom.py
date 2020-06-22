@@ -28,18 +28,15 @@ for line in lines:
     for c in line:
         if index == len(patterns[match]):
             match = not match
-            bbuffer = ""
             index = 0
         if c == patterns[match][index]:
-            bbuffer += c
             index += 1
         else:
             if not match:
                 #Write to new file
-                f.write(bbuffer)
-                print(bbuffer)
+                if index:
+                    f.write(patterns[match][:index]) #Flush detached prefix 
                 f.write(c)
-                print(c)
                 bbuffer = ""
             index = 0
 
