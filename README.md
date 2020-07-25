@@ -17,3 +17,9 @@ https://oscpnotes.infosecsanyam.in/My_OSCP_Preparation_Notes.html
 
 Virus Detection:
 https://www.virustotal.com/gui/home/upload
+
+Reverse Engineering:
+https://malwareunicorn.org/workshops/re101.html#0
+https://malwareunicorn.org/workshops/re102.html#0
+
+Ghidra: https://ghidra-sre.org/
