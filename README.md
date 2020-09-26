@@ -25,3 +25,6 @@ https://malwareunicorn.org/workshops/re102.html#0
 Ghidra: https://ghidra-sre.org/
 
 Tmux: https://gist.github.com/MohamedAlaa/2961058
+
+File Types Search:
+https://www.garykessler.net/library/file_sigs.html
