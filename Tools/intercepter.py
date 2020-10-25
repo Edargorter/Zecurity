@@ -1,11 +1,19 @@
-#CLPI ("Clippy") Zachary Bowditch 2020
 #!/usr/bin/env python3
+
+'''
+Name: CLPI ("Clippy") 
+Author: Zachary Bowditch (Edargorter) 
+Date: 2020
+Description: Command-line (network) packet intercepter and editor 
+
+'''
 
 import socket
 import os
 import random
 import sys
 import re
+import argparse 
 
 #Connect to the proxy with these details:
 HOST = "localhost"
@@ -17,14 +25,14 @@ url_reg = "[-a-zA-Z0-9@:%._\+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()@:%_
 #Decoding packets
 encoding = "UTF-8"
 
-#Editors
+#Terminal-based Editors
 editors = ["vim", "vi", "nano", "pico", "emacs"]
 editor = 0
 
-# open editor if exists
+# open editor if exists (Linux systems)
 def edit(filename):
     exists = os.system("which {}".format(editors[editor]))
-    if exists == "":
+    if not exists:
         return False
     os.system("{} {}".format(editors[editor], filename))
 
@@ -40,6 +48,7 @@ file_string = "request_"
 packet_id = 0
 
 print("Listening...")
+print("Port: {}".format(PORT))
 
 while 1:
     conn, addr = s.accept()
@@ -52,6 +61,7 @@ while 1:
             ddata = conn.recv(1024)
             if not ddata:
                 break
+            print(ddata.decode("utf-8"))
             data += ddata
 
         #Decode into variable "encoding"
@@ -85,7 +95,7 @@ while 1:
         #Create socket to communicate with destination server
         client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         client.connect((dest_url, dest_port))
-        client.send(data.encode()) 
+        client.send(bytes(data))
 
         response = b'' #Receive from destination server
         while True:
