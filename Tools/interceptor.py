@@ -5,6 +5,7 @@ Name: CLPI ("Clippy")
 Author: Zachary Bowditch (Edargorter) 
 Date: 2020
 Description: Command-line (network) packet interceptor and editor 
+Status: Incomplete
 
 '''
 
