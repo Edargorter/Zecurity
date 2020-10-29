@@ -4,7 +4,7 @@
 Name: CLPI ("Clippy") 
 Author: Zachary Bowditch (Edargorter) 
 Date: 2020
-Description: Command-line (network) packet intercepter and editor 
+Description: Command-line (network) packet interceptor and editor 
 
 '''
 
@@ -14,6 +14,13 @@ import random
 import sys
 import re
 import argparse 
+#TLS/SSL
+import ssl
+import SocketServer 
+
+httpd = HTTPServer(('localhost', 4443), SimpleHTTPRequestHandler)
+httpd.socket = ssl.wrap_socket(httpd.socket, certfile='/tmp/cert-and-key.pem', server_side=True)
+httpd.serve_forever()
 
 #Connect to the proxy with these details:
 HOST = "localhost"
@@ -49,6 +56,13 @@ packet_id = 0
 
 print("Listening...")
 print("Port: {}".format(PORT))
+
+class TCP_Handler(SocketServer.BaseRequestHandler):
+    def handle(self):
+        header = self.request.recv(4096).strip().split('\n')
+
+        #TODO the rest?
+        #Regex on page and host 
 
 while 1:
     conn, addr = s.accept()

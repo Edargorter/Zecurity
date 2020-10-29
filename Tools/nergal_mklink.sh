@@ -1,5 +1,6 @@
 #!/bin/sh
 # by Nergal
+
 mklink() {
   IND=$1
   NXT=$(($IND+1))
