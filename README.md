@@ -1,6 +1,8 @@
-Zecurity Toolz
+# Zecurity Toolz
 
-Useful links:
+A collection of tools I've built and useful resources that I record for safekeeping.
+
+## Useful links:
 
 Bugbounties:
 
