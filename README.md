@@ -28,5 +28,9 @@ Ghidra: https://ghidra-sre.org/
 
 Tmux: https://gist.github.com/MohamedAlaa/2961058
 
+Cryptography:
+
+Attacks on RSA: https://www.utc.edu/center-academic-excellence-cyber-defense/pdfs/course-paper-5600-rsa.pdf
+
 File Types Search:
 https://www.garykessler.net/library/file_sigs.html
