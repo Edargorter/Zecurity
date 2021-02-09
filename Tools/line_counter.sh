@@ -4,7 +4,7 @@
 
 declare -i lines=0
 
-for i in $(find . -exec cat {} \; 2> /dev/null | sed '/^\s*$/d' | wc -l | cut -d " " -f 1)
+for i in $(find . -exec bash -c "cat {} 2> /dev/null | sed '/^\s*$/d' | wc -l | cut -d ' ' -f 1" \;)
 do
 	if [[ $i != "wc*" ]]
 	then
