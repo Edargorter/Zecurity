@@ -1,11 +1,16 @@
 #!/usr/bin/env python3
-#ReMove COMments by Zachary Bowditch (Edargorter), 2020
 
 from sys import argv
 import argparse
 
-__prog_name__ = "rmcom"
-__author__ = "Zachary Bowditch (Edargorter)"
+'''
+Name: rmcom ReMove COMments 
+Author: Zachary Bowditch (Edargorter) 
+Date: 2020
+Description: Remove language-specific single/multi-line comments 
+Status: Incomplete
+
+'''
 
 error_count = 0
 
