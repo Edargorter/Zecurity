@@ -10,7 +10,11 @@ Status: Incomplete
 '''
 
 import socket
+import _thread
+import time 
 import os
+import platform
+import subprocess
 import random
 import sys
 import re
@@ -30,11 +34,14 @@ CERT_PATH = os.path.join(os.getenv("HOME"))
 HOST = "127.0.0.1"
 PORT = 4443
 EDITOR = "vim"
+LOG = False
 PRIVATE_KEY_FILE = "clpi_key.pem"
 CERTIFICATE_FILE = "clpi_cert.pem"
+LOCATE_CMD = "where" if platform.system() == "Windows" else "which"
 END_OF_PACKET = b"\r\n\r\n"
 
 parser = argparse.ArgumentParser(description="CLPI - Command-line packet inspector\n")
+parser.add_argument("-l", "--log", action="store_true")
 parser.add_argument("-p", "--port", metavar="port", type=int, help="Specify listening port")
 parser.add_argument("-c", "--cert", metavar="cert", type=str, help="Folder of certificate and private key (.pem files)")
 parser.add_argument("-e", "--editor", metavar="editor", type=str, help="Preferred text editor (e.g. vim)")
@@ -46,16 +53,29 @@ if args.cert:
     CERT_PATH = args.cert
 if args.editor:
     EDITOR = args.editor 
+if args.log:
+    LOG = True
 
 #Display settings
+print("""\n
+         CCCCCC LL PPPPPP IIIIII
+        CC      LL PP  PP   II
+        CC      LL PPPPPP   II
+        CC      LL PP       II
+        CC      LLLLLLLLL IIIIIII
+         CCCCCCCCCCCCCCCCCCCCCCCC  By Edargorter\n
+        """)
 print("[CLPI] Cert folder: {}".format(CERT_PATH))
 print("[CLPI] IP: {}".format(HOST))
 print("[CLPI] Port: {}".format(PORT))
 
 # open editor if exists (Linux systems)
 def edit(filename):
-    response = os.system("which {}".format(EDITOR))
-    if response:
+    try:
+        devnull = open(os.devnull, 'w')
+    except Exception as e:
+        devnull = "/tmp/devnull/"
+    if subprocess.call([LOCATE_CMD, EDITOR], stdout=devnull, stderr=devnull):
         return False
     os.system("{} {}".format(EDITOR, filename))
 
@@ -95,7 +115,7 @@ while 1:
         data = b''
 
         while True:
-            ddata = conn.recv(1024)
+            ddata = conn.recv(4096)
             if not ddata:
                 break
             data += bytes(ddata)
@@ -111,18 +131,19 @@ while 1:
         f.close()
 
         while True:
-            cont = input("[CLPI] Forward [f] Edit [e]: ")
-            if cont and cont[0] in ["E", "e"]:
-                print("[CLPI] Editing")
-                #Edit packet
-                edit(os.path.join(folder_dir, file_string + str(packet_id)))
+            if not LOG:
+                cont = input("[CLPI] Forward [f] Edit [e]: ")
+                if cont and cont[0] in ["E", "e"]:
+                    print("[CLPI] Editing")
+                    #Edit packet
+                    edit(os.path.join(folder_dir, file_string + str(packet_id)))
 
-                #Get edited packet
-                f = open(os.path.join(folder_dir, file_string + str(packet_id)), 'r')
-                request = f.read()
-                f.close()
-            elif cont and cont[0] in ["F", 'f']:
-                print("[CLPI] Forwarding request")
+                    #Get edited packet
+                    f = open(os.path.join(folder_dir, file_string + str(packet_id)), 'r')
+                    request = f.read()
+                    f.close()
+                elif cont and cont[0] in ["F", 'f']:
+                    print("[CLPI] Forwarding request")
 
             try:
                 host_index = request.find("Host: ") + 5
@@ -145,8 +166,8 @@ while 1:
 
         data = b'' #Receive from destination server
         while True:
-            ddata = client.recv(1024)
-            if not ddata: 
+            ddata = client.recv(4096)
+            if data[-4:] == END_OF_PACKET:
                 break
             data += ddata
 
@@ -158,7 +179,7 @@ while 1:
         print("============================================")
         
         #Send response back to browser
-        conn.send(bytes(response, encoding=ENCODING, errors="encoding"))
+        conn.send(bytes(response, encoding=ENCODING, errors="ignore"))
 
         packet_id += 1
 
