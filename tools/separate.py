@@ -18,7 +18,7 @@ try:
     print("Reading data...", end="\r")
     size = sum(1 for line in open(filename, 'r', encoding=encoding))
     print("Done")
-    f = open(filename, 'r')
+    f = open(filename, 'r', encoding=encoding)
     dates = [x.strip() for x in open(datefile, 'r').readlines()]
     print(dates)
 except Exception as e:
