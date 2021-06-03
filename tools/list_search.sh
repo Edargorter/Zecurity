@@ -12,7 +12,4 @@ then
 	exit 2
 fi
 
-for item in $listfile; 
-do
-	grep -ir "$item" $searchfile
-done
+grep -ir "$(awk -vORS='|' '{ print $1 }' $2 | sed 's/,$/\n')"

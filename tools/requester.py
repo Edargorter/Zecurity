@@ -75,12 +75,10 @@ f.close()
 '''
 
 #Accounts 
-#url = "http://10.10.10.28/cdn-cgi/login/admin.php"
-url = "http://34.94.3.143/8cbc81c2e9/login"
+url = "http://35.190.155.168/b373ec4810/"
 request_file = "temp.req"
-bruteforce_file = "bf.txt"
-password = "password"
-params = {"username": "{}".format("admin"), "password":"{}".format(password)}
+#bruteforce_file = "bf.txt"
+params = {"code": "{}".format(code)}
 #cookies = {"user":"{}".format(access_id), "role":"{}".format(role)}
 
 try:
@@ -90,11 +88,13 @@ except Exception as e:
     exit(1)
 
 #Open bruteforce file 
+'''
 try:
     blines = [x.strip().rstrip() for x in open(bruteforce_file, 'r').readlines()]
 except Exception as e:
     print(e)
     exit(1)
+    '''
 
 print(lines)
 headers = parse_headers(lines)

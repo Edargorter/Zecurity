@@ -2,17 +2,21 @@
 
 from sys import argv 
 
+encoding = "ISO-8859-1"
+
 try:
     filename = argv[1]
     service = argv[2]
     datefile = argv[3]
+    if len(argv) > 4:
+        encoding = argv[4]
 except Exception as e:
-    print("Usage: python3 {} [ filename ] [ service name ] [ date file ]".format(argv[0]))
+    print("Usage: python3 {} filename servicename datesfile [ encoding ]".format(argv[0]))
     exit(1)
 
 try:
     print("Reading data...", end="\r")
-    size = sum(1 for line in open(filename, 'r'))
+    size = sum(1 for line in open(filename, 'r', encoding=encoding))
     print("Done")
     f = open(filename, 'r')
     dates = [x.strip() for x in open(datefile, 'r').readlines()]
@@ -23,7 +27,7 @@ except Exception as e:
 
 out = {}
 for date in dates:
-    out[date] = open("{}_{}.csv".format(service, date.replace(' ', '_').replace(',', '')), 'w')
+    out[date] = open("{}_{}.csv".format(service, date.replace(' ', '_').replace(',', '')), 'w', encoding=encoding)
 
 count = 0
 
