@@ -11,7 +11,7 @@ except Exception as e:
     exit(1)
 
 try:
-	size = sum(1 for line in open(filename, 'r'))
+    size = sum(1 for line in open(filename, 'r'))
     f = open(filename, 'r')
     dates = [x.strip() for x in open(datefile, 'r').readlines()]
     print(dates)
