@@ -11,7 +11,9 @@ except Exception as e:
     exit(1)
 
 try:
+    print("Reading data...", end="\r")
     size = sum(1 for line in open(filename, 'r'))
+    print("Done")
     f = open(filename, 'r')
     dates = [x.strip() for x in open(datefile, 'r').readlines()]
     print(dates)
@@ -25,18 +27,22 @@ for date in dates:
 
 count = 0
 
+print("Separating...")
+
 for line in f:
-	if count == 0: #Column headings 
-		for date in dates:
-			out[date].write(line)
-		count += 1
-		continue
+    if count == 0: #Column headings 
+        for date in dates:
+            out[date].write(line)
+        count += 1
+        continue
     for date in dates:
         if date in line:
             out[date].write(line)
             break
     count += 1
     print("Progress: {}%".format(round(100 * count / size), 2), end="\r")
+
+print("Done")
 
 for d in out:
     out[d].close() 
