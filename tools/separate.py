@@ -3,6 +3,7 @@
 from sys import argv 
 
 encoding = "ISO-8859-1"
+outencode = "utf-8"
 
 try:
     filename = argv[1]
@@ -16,9 +17,11 @@ except Exception as e:
 
 try:
     print("Reading data...", end="\r")
-    size = sum(1 for line in open(filename, 'r', encoding=encoding))
-    print("Done")
     f = open(filename, 'r', encoding=encoding)
+    size = sum(1 for line in f)
+    f.close()
+    f = open(filename, 'r', encoding=encoding)
+    print("Done")
     dates = [x.strip() for x in open(datefile, 'r').readlines()]
     print(dates)
 except Exception as e:
@@ -27,21 +30,22 @@ except Exception as e:
 
 out = {}
 for date in dates:
-    out[date] = open("{}_{}.csv".format(service, date.replace(' ', '_').replace(',', '')), 'w', encoding=encoding)
+    out[date] = open("{}_{}.csv".format(service, date.replace(' ', '_').replace(',', '')), 'w')
 
 count = 0
+print(out)
 
 print("Separating...")
 
 for line in f:
     if count == 0: #Column headings 
         for date in dates:
-            out[date].write(line)
+            out[date].write(str(line.encode(outencode)))
         count += 1
         continue
     for date in dates:
         if date in line:
-            out[date].write(line)
+            out[date].write(str(line.encode(outencode)))
             break
     count += 1
     print("Progress: {}%".format(round(100 * count / size), 2), end="\r")
