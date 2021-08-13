@@ -24,9 +24,14 @@ Reverse Engineering:
 https://malwareunicorn.org/workshops/re101.html#0
 https://malwareunicorn.org/workshops/re102.html#0
 
-Ghidra: https://ghidra-sre.org/
+Ghidra: 
+https://ghidra-sre.org/
 
-Tmux: https://gist.github.com/MohamedAlaa/2961058
+x86 Assembly:
+https://filippo.io/linux-syscall-table/
+
+Tmux: 
+https://gist.github.com/MohamedAlaa/2961058
 
 Cryptography:
 
