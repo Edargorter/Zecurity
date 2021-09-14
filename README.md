@@ -39,3 +39,6 @@ Attacks on RSA: https://www.utc.edu/center-academic-excellence-cyber-defense/pdf
 
 File Types Search:
 https://www.garykessler.net/library/file_sigs.html
+
+Electronics:
+https://electroagenda.com/en/a-summary-of-electronics/
