@@ -23,6 +23,7 @@ https://www.virustotal.com/gui/home/upload
 Reverse Engineering:
 https://malwareunicorn.org/workshops/re101.html#0
 https://malwareunicorn.org/workshops/re102.html#0
+https://github.com/TobalJackson/2017-SIT-RE-Presentation
 
 Ghidra: 
 https://ghidra-sre.org/
