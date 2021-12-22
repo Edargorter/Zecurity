@@ -20,10 +20,11 @@ https://oscpnotes.infosecsanyam.in/My_OSCP_Preparation_Notes.html
 Virus Detection:
 https://www.virustotal.com/gui/home/upload
 
-Reverse Engineering:
+Reverse Engineering and Malware:
 https://malwareunicorn.org/workshops/re101.html#0
 https://malwareunicorn.org/workshops/re102.html#0
 https://github.com/TobalJackson/2017-SIT-RE-Presentation
+https://www.vx-underground.org/
 
 Ghidra: 
 https://ghidra-sre.org/
