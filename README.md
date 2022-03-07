@@ -26,6 +26,9 @@ https://malwareunicorn.org/workshops/re102.html#0
 https://github.com/TobalJackson/2017-SIT-RE-Presentation
 https://www.vx-underground.org/
 
+Programming Languages:
+https://hackingcpp.com/
+
 Ghidra: 
 https://ghidra-sre.org/
 
