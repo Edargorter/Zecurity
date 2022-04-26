@@ -1,6 +1,6 @@
 # Zecurity Toolz
 
-A collection of tools I've built and useful resources that I record for safekeeping.
+A collection of useful tools (including some of my own) and resources that I record for safekeeping.
 
 ## Useful links:
 
