@@ -1,0 +1,1358 @@
+Starting Nmap 7.91 ( https://nmap.org ) at 2022-06-25 21:43 SAST
+Initiating Parallel DNS resolution of 256 hosts. at 21:43
+Completed Parallel DNS resolution of 256 hosts. at 21:43, 4.27s elapsed
+Initiating Connect Scan at 21:43
+Scanning 64 hosts [1000 ports/host]
+Discovered open port 53/tcp on 10.0.2.1
+Discovered open port 222/tcp on 10.0.2.1
+Discovered open port 8291/tcp on 10.0.2.1
+Discovered open port 2000/tcp on 10.0.2.1
+Completed Connect Scan against 10.0.2.14 in 15.98s (63 hosts left)
+Completed Connect Scan against 10.0.2.16 in 15.98s (62 hosts left)
+Completed Connect Scan against 10.0.2.7 in 15.99s (61 hosts left)
+Completed Connect Scan against 10.0.2.13 in 15.99s (60 hosts left)
+Completed Connect Scan against 10.0.2.17 in 16.00s (59 hosts left)
+Completed Connect Scan against 10.0.2.21 in 16.00s (58 hosts left)
+Completed Connect Scan against 10.0.2.0 in 16.00s (57 hosts left)
+Completed Connect Scan against 10.0.2.31 in 16.00s (56 hosts left)
+Completed Connect Scan against 10.0.2.2 in 16.01s (55 hosts left)
+Completed Connect Scan against 10.0.2.28 in 16.01s (54 hosts left)
+Completed Connect Scan against 10.0.2.6 in 16.01s (53 hosts left)
+Completed Connect Scan against 10.0.2.15 in 16.01s (52 hosts left)
+Completed Connect Scan against 10.0.2.27 in 16.01s (51 hosts left)
+Completed Connect Scan against 10.0.2.8 in 16.02s (50 hosts left)
+Completed Connect Scan against 10.0.2.20 in 16.02s (49 hosts left)
+Completed Connect Scan against 10.0.2.22 in 16.02s (48 hosts left)
+Completed Connect Scan against 10.0.2.4 in 16.02s (47 hosts left)
+Completed Connect Scan against 10.0.2.30 in 16.02s (46 hosts left)
+Completed Connect Scan against 10.0.2.5 in 16.03s (45 hosts left)
+Completed Connect Scan against 10.0.2.10 in 16.03s (44 hosts left)
+Completed Connect Scan against 10.0.2.3 in 16.03s (43 hosts left)
+Completed Connect Scan against 10.0.2.9 in 16.03s (42 hosts left)
+Completed Connect Scan against 10.0.2.29 in 16.04s (41 hosts left)
+Completed Connect Scan against 10.0.2.34 in 16.04s (40 hosts left)
+Completed Connect Scan against 10.0.2.36 in 16.04s (39 hosts left)
+Completed Connect Scan against 10.0.2.18 in 16.05s (38 hosts left)
+Completed Connect Scan against 10.0.2.19 in 16.05s (37 hosts left)
+Completed Connect Scan against 10.0.2.35 in 16.05s (36 hosts left)
+Completed Connect Scan against 10.0.2.33 in 16.05s (35 hosts left)
+Completed Connect Scan against 10.0.2.32 in 16.06s (34 hosts left)
+Completed Connect Scan against 10.0.2.11 in 16.06s (33 hosts left)
+Completed Connect Scan against 10.0.2.12 in 16.06s (32 hosts left)
+Completed Connect Scan against 10.0.2.40 in 16.06s (31 hosts left)
+Completed Connect Scan against 10.0.2.49 in 16.06s (30 hosts left)
+Completed Connect Scan against 10.0.2.41 in 16.07s (29 hosts left)
+Completed Connect Scan against 10.0.2.53 in 16.07s (28 hosts left)
+Completed Connect Scan against 10.0.2.24 in 16.07s (27 hosts left)
+Completed Connect Scan against 10.0.2.25 in 16.07s (26 hosts left)
+Completed Connect Scan against 10.0.2.37 in 16.07s (25 hosts left)
+Completed Connect Scan against 10.0.2.52 in 16.07s (24 hosts left)
+Completed Connect Scan against 10.0.2.57 in 16.07s (23 hosts left)
+Completed Connect Scan against 10.0.2.61 in 16.07s (22 hosts left)
+Completed Connect Scan against 10.0.2.26 in 16.08s (21 hosts left)
+Completed Connect Scan against 10.0.2.38 in 16.08s (20 hosts left)
+Completed Connect Scan against 10.0.2.39 in 16.08s (19 hosts left)
+Completed Connect Scan against 10.0.2.44 in 16.08s (18 hosts left)
+Completed Connect Scan against 10.0.2.56 in 16.08s (17 hosts left)
+Completed Connect Scan against 10.0.2.62 in 16.08s (16 hosts left)
+Completed Connect Scan against 10.0.2.23 in 16.08s (15 hosts left)
+Completed Connect Scan against 10.0.2.42 in 16.08s (14 hosts left)
+Completed Connect Scan against 10.0.2.43 in 16.08s (13 hosts left)
+Completed Connect Scan against 10.0.2.45 in 16.08s (12 hosts left)
+Completed Connect Scan against 10.0.2.58 in 16.08s (11 hosts left)
+Completed Connect Scan against 10.0.2.46 in 16.08s (10 hosts left)
+Completed Connect Scan against 10.0.2.47 in 16.08s (9 hosts left)
+Completed Connect Scan against 10.0.2.48 in 16.08s (8 hosts left)
+Completed Connect Scan against 10.0.2.51 in 16.08s (7 hosts left)
+Completed Connect Scan against 10.0.2.54 in 16.08s (6 hosts left)
+Completed Connect Scan against 10.0.2.55 in 16.08s (5 hosts left)
+Completed Connect Scan against 10.0.2.59 in 16.08s (4 hosts left)
+Completed Connect Scan against 10.0.2.60 in 16.08s (3 hosts left)
+Completed Connect Scan against 10.0.2.63 in 16.08s (2 hosts left)
+Completed Connect Scan against 10.0.2.1 in 16.20s (1 host left)
+Completed Connect Scan at 21:43, 16.27s elapsed (64000 total ports)
+Nmap scan report for 10.0.2.0
+Host is up (0.000051s latency).
+All 1000 scanned ports on 10.0.2.0 are filtered
+
+Nmap scan report for 10.0.2.1
+Host is up (0.0041s latency).
+Not shown: 996 filtered ports
+PORT     STATE SERVICE
+53/tcp   open  domain
+222/tcp  open  rsh-spx
+2000/tcp open  cisco-sccp
+8291/tcp open  unknown
+
+Nmap scan report for 10.0.2.2
+Host is up (0.000052s latency).
+All 1000 scanned ports on 10.0.2.2 are filtered
+
+Nmap scan report for 10.0.2.3
+Host is up (0.000042s latency).
+All 1000 scanned ports on 10.0.2.3 are filtered
+
+Nmap scan report for 10.0.2.4
+Host is up (0.000041s latency).
+All 1000 scanned ports on 10.0.2.4 are filtered
+
+Nmap scan report for 10.0.2.5
+Host is up (0.000047s latency).
+All 1000 scanned ports on 10.0.2.5 are filtered
+
+Nmap scan report for 10.0.2.6
+Host is up (0.000049s latency).
+All 1000 scanned ports on 10.0.2.6 are filtered
+
+Nmap scan report for 10.0.2.7
+Host is up (0.000054s latency).
+All 1000 scanned ports on 10.0.2.7 are filtered
+
+Nmap scan report for 10.0.2.8
+Host is up (0.000045s latency).
+All 1000 scanned ports on 10.0.2.8 are filtered
+
+Nmap scan report for 10.0.2.9
+Host is up (0.000041s latency).
+All 1000 scanned ports on 10.0.2.9 are filtered
+
+Nmap scan report for 10.0.2.10
+Host is up (0.000042s latency).
+All 1000 scanned ports on 10.0.2.10 are filtered
+
+Nmap scan report for 10.0.2.11
+Host is up (0.000034s latency).
+All 1000 scanned ports on 10.0.2.11 are filtered
+
+Nmap scan report for 10.0.2.12
+Host is up (0.000040s latency).
+All 1000 scanned ports on 10.0.2.12 are filtered
+
+Nmap scan report for 10.0.2.13
+Host is up (0.000045s latency).
+All 1000 scanned ports on 10.0.2.13 are filtered
+
+Nmap scan report for 10.0.2.14
+Host is up (0.000046s latency).
+All 1000 scanned ports on 10.0.2.14 are filtered
+
+Nmap scan report for 10.0.2.15
+Host is up (0.000036s latency).
+All 1000 scanned ports on 10.0.2.15 are filtered
+
+Nmap scan report for 10.0.2.16
+Host is up (0.000031s latency).
+All 1000 scanned ports on 10.0.2.16 are filtered
+
+Nmap scan report for 10.0.2.17
+Host is up (0.000053s latency).
+All 1000 scanned ports on 10.0.2.17 are filtered
+
+Nmap scan report for 10.0.2.18
+Host is up (0.000063s latency).
+All 1000 scanned ports on 10.0.2.18 are filtered
+
+Nmap scan report for 10.0.2.19
+Host is up (0.000044s latency).
+All 1000 scanned ports on 10.0.2.19 are filtered
+
+Nmap scan report for 10.0.2.20
+Host is up (0.000038s latency).
+All 1000 scanned ports on 10.0.2.20 are filtered
+
+Nmap scan report for 10.0.2.21
+Host is up (0.000042s latency).
+All 1000 scanned ports on 10.0.2.21 are filtered
+
+Nmap scan report for 10.0.2.22
+Host is up (0.000048s latency).
+All 1000 scanned ports on 10.0.2.22 are filtered
+
+Nmap scan report for 10.0.2.23
+Host is up (0.000046s latency).
+All 1000 scanned ports on 10.0.2.23 are filtered
+
+Nmap scan report for 10.0.2.24
+Host is up (0.000039s latency).
+All 1000 scanned ports on 10.0.2.24 are filtered
+
+Nmap scan report for 10.0.2.25
+Host is up (0.000030s latency).
+All 1000 scanned ports on 10.0.2.25 are filtered
+
+Nmap scan report for 10.0.2.26
+Host is up (0.000057s latency).
+All 1000 scanned ports on 10.0.2.26 are filtered
+
+Nmap scan report for 10.0.2.27
+Host is up (0.000060s latency).
+All 1000 scanned ports on 10.0.2.27 are filtered
+
+Nmap scan report for 10.0.2.28
+Host is up (0.000065s latency).
+All 1000 scanned ports on 10.0.2.28 are filtered
+
+Nmap scan report for 10.0.2.29
+Host is up (0.000051s latency).
+All 1000 scanned ports on 10.0.2.29 are filtered
+
+Nmap scan report for 10.0.2.30
+Host is up (0.000051s latency).
+All 1000 scanned ports on 10.0.2.30 are filtered
+
+Nmap scan report for 10.0.2.31
+Host is up (0.000035s latency).
+All 1000 scanned ports on 10.0.2.31 are filtered
+
+Nmap scan report for 10.0.2.32
+Host is up (0.000036s latency).
+All 1000 scanned ports on 10.0.2.32 are filtered
+
+Nmap scan report for 10.0.2.33
+Host is up (0.000047s latency).
+All 1000 scanned ports on 10.0.2.33 are filtered
+
+Nmap scan report for 10.0.2.34
+Host is up (0.000044s latency).
+All 1000 scanned ports on 10.0.2.34 are filtered
+
+Nmap scan report for 10.0.2.35
+Host is up (0.000044s latency).
+All 1000 scanned ports on 10.0.2.35 are filtered
+
+Nmap scan report for 10.0.2.36
+Host is up (0.000052s latency).
+All 1000 scanned ports on 10.0.2.36 are filtered
+
+Nmap scan report for 10.0.2.37
+Host is up (0.000041s latency).
+All 1000 scanned ports on 10.0.2.37 are filtered
+
+Nmap scan report for 10.0.2.38
+Host is up (0.000032s latency).
+All 1000 scanned ports on 10.0.2.38 are filtered
+
+Nmap scan report for 10.0.2.39
+Host is up (0.000035s latency).
+All 1000 scanned ports on 10.0.2.39 are filtered
+
+Nmap scan report for 10.0.2.40
+Host is up (0.000033s latency).
+All 1000 scanned ports on 10.0.2.40 are filtered
+
+Nmap scan report for 10.0.2.41
+Host is up (0.000043s latency).
+All 1000 scanned ports on 10.0.2.41 are filtered
+
+Nmap scan report for 10.0.2.42
+Host is up (0.000036s latency).
+All 1000 scanned ports on 10.0.2.42 are filtered
+
+Nmap scan report for 10.0.2.43
+Host is up (0.000055s latency).
+All 1000 scanned ports on 10.0.2.43 are filtered
+
+Nmap scan report for 10.0.2.44
+Host is up (0.000050s latency).
+All 1000 scanned ports on 10.0.2.44 are filtered
+
+Nmap scan report for 10.0.2.45
+Host is up (0.000041s latency).
+All 1000 scanned ports on 10.0.2.45 are filtered
+
+Nmap scan report for 10.0.2.46
+Host is up (0.000063s latency).
+All 1000 scanned ports on 10.0.2.46 are filtered
+
+Nmap scan report for 10.0.2.47
+Host is up (0.000042s latency).
+All 1000 scanned ports on 10.0.2.47 are filtered
+
+Nmap scan report for 10.0.2.48
+Host is up (0.000046s latency).
+All 1000 scanned ports on 10.0.2.48 are filtered
+
+Nmap scan report for 10.0.2.49
+Host is up (0.000049s latency).
+All 1000 scanned ports on 10.0.2.49 are filtered
+
+Nmap scan report for 10.0.2.50
+Host is up.
+All 1000 scanned ports on 10.0.2.50 are filtered
+
+Nmap scan report for 10.0.2.51
+Host is up (0.000045s latency).
+All 1000 scanned ports on 10.0.2.51 are filtered
+
+Nmap scan report for 10.0.2.52
+Host is up (0.000034s latency).
+All 1000 scanned ports on 10.0.2.52 are filtered
+
+Nmap scan report for 10.0.2.53
+Host is up (0.000044s latency).
+All 1000 scanned ports on 10.0.2.53 are filtered
+
+Nmap scan report for 10.0.2.54
+Host is up (0.000045s latency).
+All 1000 scanned ports on 10.0.2.54 are filtered
+
+Nmap scan report for 10.0.2.55
+Host is up (0.000045s latency).
+All 1000 scanned ports on 10.0.2.55 are filtered
+
+Nmap scan report for 10.0.2.56
+Host is up (0.000047s latency).
+All 1000 scanned ports on 10.0.2.56 are filtered
+
+Nmap scan report for 10.0.2.57
+Host is up (0.000050s latency).
+All 1000 scanned ports on 10.0.2.57 are filtered
+
+Nmap scan report for 10.0.2.58
+Host is up (0.000042s latency).
+All 1000 scanned ports on 10.0.2.58 are filtered
+
+Nmap scan report for 10.0.2.59
+Host is up (0.000038s latency).
+All 1000 scanned ports on 10.0.2.59 are filtered
+
+Nmap scan report for 10.0.2.60
+Host is up (0.000044s latency).
+All 1000 scanned ports on 10.0.2.60 are filtered
+
+Nmap scan report for 10.0.2.61
+Host is up (0.000038s latency).
+All 1000 scanned ports on 10.0.2.61 are filtered
+
+Nmap scan report for 10.0.2.62
+Host is up (0.000035s latency).
+All 1000 scanned ports on 10.0.2.62 are filtered
+
+Nmap scan report for 10.0.2.63
+Host is up (0.000047s latency).
+All 1000 scanned ports on 10.0.2.63 are filtered
+
+Initiating Connect Scan at 21:43
+Scanning 64 hosts [1000 ports/host]
+Discovered open port 62078/tcp on 10.0.2.107
+Completed Connect Scan against 10.0.2.69 in 22.54s (63 hosts left)
+Completed Connect Scan against 10.0.2.81 in 22.55s (62 hosts left)
+Completed Connect Scan against 10.0.2.82 in 22.56s (61 hosts left)
+Completed Connect Scan against 10.0.2.68 in 22.56s (60 hosts left)
+Completed Connect Scan against 10.0.2.70 in 22.56s (59 hosts left)
+Completed Connect Scan against 10.0.2.93 in 22.57s (58 hosts left)
+Completed Connect Scan against 10.0.2.73 in 22.57s (57 hosts left)
+Completed Connect Scan against 10.0.2.84 in 22.57s (56 hosts left)
+Completed Connect Scan against 10.0.2.85 in 22.57s (55 hosts left)
+Completed Connect Scan against 10.0.2.94 in 22.58s (54 hosts left)
+Completed Connect Scan against 10.0.2.71 in 22.58s (53 hosts left)
+Completed Connect Scan against 10.0.2.74 in 22.58s (52 hosts left)
+Completed Connect Scan against 10.0.2.100 in 22.58s (51 hosts left)
+Completed Connect Scan against 10.0.2.109 in 22.59s (50 hosts left)
+Completed Connect Scan against 10.0.2.72 in 22.59s (49 hosts left)
+Completed Connect Scan against 10.0.2.86 in 22.59s (48 hosts left)
+Completed Connect Scan against 10.0.2.121 in 22.59s (47 hosts left)
+Completed Connect Scan against 10.0.2.83 in 22.59s (46 hosts left)
+Completed Connect Scan against 10.0.2.80 in 22.61s (45 hosts left)
+Completed Connect Scan against 10.0.2.108 in 22.61s (44 hosts left)
+Completed Connect Scan against 10.0.2.112 in 22.61s (43 hosts left)
+Completed Connect Scan against 10.0.2.75 in 22.62s (42 hosts left)
+Completed Connect Scan against 10.0.2.96 in 22.62s (41 hosts left)
+Completed Connect Scan against 10.0.2.111 in 22.62s (40 hosts left)
+Completed Connect Scan against 10.0.2.110 in 22.62s (39 hosts left)
+Completed Connect Scan against 10.0.2.113 in 22.62s (38 hosts left)
+Completed Connect Scan against 10.0.2.122 in 22.62s (37 hosts left)
+Completed Connect Scan against 10.0.2.97 in 22.62s (36 hosts left)
+Completed Connect Scan against 10.0.2.99 in 22.63s (35 hosts left)
+Completed Connect Scan against 10.0.2.64 in 22.64s (34 hosts left)
+Completed Connect Scan against 10.0.2.65 in 22.64s (33 hosts left)
+Completed Connect Scan against 10.0.2.123 in 22.64s (32 hosts left)
+Completed Connect Scan against 10.0.2.124 in 22.64s (31 hosts left)
+Completed Connect Scan against 10.0.2.78 in 22.64s (30 hosts left)
+Completed Connect Scan against 10.0.2.92 in 22.64s (29 hosts left)
+Completed Connect Scan against 10.0.2.95 in 22.64s (28 hosts left)
+Completed Connect Scan against 10.0.2.114 in 22.64s (27 hosts left)
+Completed Connect Scan against 10.0.2.125 in 22.64s (26 hosts left)
+Completed Connect Scan against 10.0.2.67 in 22.65s (25 hosts left)
+Completed Connect Scan against 10.0.2.87 in 22.65s (24 hosts left)
+Completed Connect Scan against 10.0.2.98 in 22.65s (23 hosts left)
+Completed Connect Scan against 10.0.2.77 in 22.67s (22 hosts left)
+Completed Connect Scan against 10.0.2.79 in 22.67s (21 hosts left)
+Completed Connect Scan against 10.0.2.88 in 22.67s (20 hosts left)
+Completed Connect Scan against 10.0.2.101 in 22.67s (19 hosts left)
+Completed Connect Scan against 10.0.2.120 in 22.67s (18 hosts left)
+Completed Connect Scan against 10.0.2.66 in 22.68s (17 hosts left)
+Completed Connect Scan against 10.0.2.76 in 22.68s (16 hosts left)
+Completed Connect Scan against 10.0.2.89 in 22.68s (15 hosts left)
+Completed Connect Scan against 10.0.2.91 in 22.68s (14 hosts left)
+Completed Connect Scan against 10.0.2.119 in 22.68s (13 hosts left)
+Completed Connect Scan against 10.0.2.126 in 22.68s (12 hosts left)
+Completed Connect Scan against 10.0.2.102 in 22.70s (11 hosts left)
+Completed Connect Scan against 10.0.2.106 in 22.70s (10 hosts left)
+Completed Connect Scan against 10.0.2.116 in 22.70s (9 hosts left)
+Completed Connect Scan against 10.0.2.127 in 22.70s (8 hosts left)
+Completed Connect Scan against 10.0.2.90 in 22.72s (7 hosts left)
+Completed Connect Scan against 10.0.2.103 in 22.72s (6 hosts left)
+Completed Connect Scan against 10.0.2.104 in 22.72s (5 hosts left)
+Completed Connect Scan against 10.0.2.105 in 22.72s (4 hosts left)
+Completed Connect Scan against 10.0.2.115 in 22.72s (3 hosts left)
+Completed Connect Scan against 10.0.2.117 in 22.72s (2 hosts left)
+Completed Connect Scan against 10.0.2.118 in 22.72s (1 host left)
+Completed Connect Scan at 21:43, 22.89s elapsed (64000 total ports)
+Nmap scan report for 10.0.2.64
+Host is up (0.000050s latency).
+All 1000 scanned ports on 10.0.2.64 are filtered
+
+Nmap scan report for 10.0.2.65
+Host is up (0.000046s latency).
+All 1000 scanned ports on 10.0.2.65 are filtered
+
+Nmap scan report for 10.0.2.66
+Host is up (0.00010s latency).
+All 1000 scanned ports on 10.0.2.66 are filtered
+
+Nmap scan report for 10.0.2.67
+Host is up (0.000059s latency).
+All 1000 scanned ports on 10.0.2.67 are filtered
+
+Nmap scan report for 10.0.2.68
+Host is up (0.00012s latency).
+All 1000 scanned ports on 10.0.2.68 are filtered
+
+Nmap scan report for 10.0.2.69
+Host is up (0.000035s latency).
+All 1000 scanned ports on 10.0.2.69 are filtered
+
+Nmap scan report for 10.0.2.70
+Host is up (0.000055s latency).
+All 1000 scanned ports on 10.0.2.70 are filtered
+
+Nmap scan report for 10.0.2.71
+Host is up (0.000033s latency).
+All 1000 scanned ports on 10.0.2.71 are filtered
+
+Nmap scan report for 10.0.2.72
+Host is up (0.000032s latency).
+All 1000 scanned ports on 10.0.2.72 are filtered
+
+Nmap scan report for 10.0.2.73
+Host is up (0.000044s latency).
+All 1000 scanned ports on 10.0.2.73 are filtered
+
+Nmap scan report for 10.0.2.74
+Host is up (0.000057s latency).
+All 1000 scanned ports on 10.0.2.74 are filtered
+
+Nmap scan report for 10.0.2.75
+Host is up (0.000033s latency).
+All 1000 scanned ports on 10.0.2.75 are filtered
+
+Nmap scan report for 10.0.2.76
+Host is up (0.000052s latency).
+All 1000 scanned ports on 10.0.2.76 are filtered
+
+Nmap scan report for 10.0.2.77
+Host is up (0.00013s latency).
+All 1000 scanned ports on 10.0.2.77 are filtered
+
+Nmap scan report for 10.0.2.78
+Host is up (0.000049s latency).
+All 1000 scanned ports on 10.0.2.78 are filtered
+
+Nmap scan report for 10.0.2.79
+Host is up (0.00013s latency).
+All 1000 scanned ports on 10.0.2.79 are filtered
+
+Nmap scan report for 10.0.2.80
+Host is up (0.000058s latency).
+All 1000 scanned ports on 10.0.2.80 are filtered
+
+Nmap scan report for 10.0.2.81
+Host is up (0.000062s latency).
+All 1000 scanned ports on 10.0.2.81 are filtered
+
+Nmap scan report for 10.0.2.82
+Host is up (0.000039s latency).
+All 1000 scanned ports on 10.0.2.82 are filtered
+
+Nmap scan report for 10.0.2.83
+Host is up (0.000032s latency).
+All 1000 scanned ports on 10.0.2.83 are filtered
+
+Nmap scan report for 10.0.2.84
+Host is up (0.000056s latency).
+All 1000 scanned ports on 10.0.2.84 are filtered
+
+Nmap scan report for 10.0.2.85
+Host is up (0.000028s latency).
+All 1000 scanned ports on 10.0.2.85 are filtered
+
+Nmap scan report for 10.0.2.86
+Host is up (0.000046s latency).
+All 1000 scanned ports on 10.0.2.86 are filtered
+
+Nmap scan report for 10.0.2.87
+Host is up (0.000055s latency).
+All 1000 scanned ports on 10.0.2.87 are filtered
+
+Nmap scan report for 10.0.2.88
+Host is up (0.000064s latency).
+All 1000 scanned ports on 10.0.2.88 are filtered
+
+Nmap scan report for 10.0.2.89
+Host is up (0.000067s latency).
+All 1000 scanned ports on 10.0.2.89 are filtered
+
+Nmap scan report for 10.0.2.90
+Host is up (0.00022s latency).
+All 1000 scanned ports on 10.0.2.90 are filtered
+
+Nmap scan report for 10.0.2.91
+Host is up (0.000064s latency).
+All 1000 scanned ports on 10.0.2.91 are filtered
+
+Nmap scan report for 10.0.2.92
+Host is up (0.000038s latency).
+All 1000 scanned ports on 10.0.2.92 are filtered
+
+Nmap scan report for 10.0.2.93
+Host is up (0.000058s latency).
+All 1000 scanned ports on 10.0.2.93 are filtered
+
+Nmap scan report for 10.0.2.94
+Host is up (0.000063s latency).
+All 1000 scanned ports on 10.0.2.94 are filtered
+
+Nmap scan report for 10.0.2.95
+Host is up (0.000064s latency).
+All 1000 scanned ports on 10.0.2.95 are filtered
+
+Nmap scan report for 10.0.2.96
+Host is up (0.000057s latency).
+All 1000 scanned ports on 10.0.2.96 are filtered
+
+Nmap scan report for 10.0.2.97
+Host is up (0.000041s latency).
+All 1000 scanned ports on 10.0.2.97 are filtered
+
+Nmap scan report for 10.0.2.98
+Host is up (0.000047s latency).
+All 1000 scanned ports on 10.0.2.98 are filtered
+
+Nmap scan report for 10.0.2.99
+Host is up (0.000085s latency).
+All 1000 scanned ports on 10.0.2.99 are filtered
+
+Nmap scan report for 10.0.2.100
+Host is up (0.000036s latency).
+All 1000 scanned ports on 10.0.2.100 are filtered
+
+Nmap scan report for 10.0.2.101
+Host is up (0.00018s latency).
+All 1000 scanned ports on 10.0.2.101 are filtered
+
+Nmap scan report for 10.0.2.102
+Host is up (0.000064s latency).
+All 1000 scanned ports on 10.0.2.102 are filtered
+
+Nmap scan report for 10.0.2.103
+Host is up (0.00022s latency).
+All 1000 scanned ports on 10.0.2.103 are filtered
+
+Nmap scan report for 10.0.2.104
+Host is up (0.000043s latency).
+All 1000 scanned ports on 10.0.2.104 are filtered
+
+Nmap scan report for 10.0.2.105
+Host is up (0.00010s latency).
+All 1000 scanned ports on 10.0.2.105 are filtered
+
+Nmap scan report for 10.0.2.106
+Host is up (0.000072s latency).
+All 1000 scanned ports on 10.0.2.106 are filtered
+
+Nmap scan report for 10.0.2.107
+Host is up (0.0070s latency).
+Not shown: 999 filtered ports
+PORT      STATE SERVICE
+62078/tcp open  iphone-sync
+
+Nmap scan report for 10.0.2.108
+Host is up (0.000048s latency).
+All 1000 scanned ports on 10.0.2.108 are filtered
+
+Nmap scan report for 10.0.2.109
+Host is up (0.000058s latency).
+All 1000 scanned ports on 10.0.2.109 are filtered
+
+Nmap scan report for 10.0.2.110
+Host is up (0.000051s latency).
+All 1000 scanned ports on 10.0.2.110 are filtered
+
+Nmap scan report for 10.0.2.111
+Host is up (0.000036s latency).
+All 1000 scanned ports on 10.0.2.111 are filtered
+
+Nmap scan report for 10.0.2.112
+Host is up (0.000038s latency).
+All 1000 scanned ports on 10.0.2.112 are filtered
+
+Nmap scan report for 10.0.2.113
+Host is up (0.000049s latency).
+All 1000 scanned ports on 10.0.2.113 are filtered
+
+Nmap scan report for 10.0.2.114
+Host is up (0.000078s latency).
+All 1000 scanned ports on 10.0.2.114 are filtered
+
+Nmap scan report for 10.0.2.115
+Host is up (0.00013s latency).
+All 1000 scanned ports on 10.0.2.115 are filtered
+
+Nmap scan report for 10.0.2.116
+Host is up (0.00011s latency).
+All 1000 scanned ports on 10.0.2.116 are filtered
+
+Nmap scan report for 10.0.2.117
+Host is up (0.00013s latency).
+All 1000 scanned ports on 10.0.2.117 are filtered
+
+Nmap scan report for 10.0.2.118
+Host is up (0.00031s latency).
+All 1000 scanned ports on 10.0.2.118 are filtered
+
+Nmap scan report for 10.0.2.119
+Host is up (0.000069s latency).
+All 1000 scanned ports on 10.0.2.119 are filtered
+
+Nmap scan report for 10.0.2.120
+Host is up (0.000093s latency).
+All 1000 scanned ports on 10.0.2.120 are filtered
+
+Nmap scan report for 10.0.2.121
+Host is up (0.000058s latency).
+All 1000 scanned ports on 10.0.2.121 are filtered
+
+Nmap scan report for 10.0.2.122
+Host is up (0.000044s latency).
+All 1000 scanned ports on 10.0.2.122 are filtered
+
+Nmap scan report for 10.0.2.123
+Host is up (0.000081s latency).
+All 1000 scanned ports on 10.0.2.123 are filtered
+
+Nmap scan report for 10.0.2.124
+Host is up (0.000039s latency).
+All 1000 scanned ports on 10.0.2.124 are filtered
+
+Nmap scan report for 10.0.2.125
+Host is up (0.000061s latency).
+All 1000 scanned ports on 10.0.2.125 are filtered
+
+Nmap scan report for 10.0.2.126
+Host is up (0.000062s latency).
+All 1000 scanned ports on 10.0.2.126 are filtered
+
+Nmap scan report for 10.0.2.127
+Host is up (0.00037s latency).
+All 1000 scanned ports on 10.0.2.127 are filtered
+
+Initiating Connect Scan at 21:43
+Scanning 64 hosts [1000 ports/host]
+Discovered open port 22/tcp on 10.0.2.163
+Discovered open port 139/tcp on 10.0.2.165
+Discovered open port 135/tcp on 10.0.2.165
+Discovered open port 445/tcp on 10.0.2.165
+Discovered open port 62078/tcp on 10.0.2.164
+Discovered open port 9000/tcp on 10.0.2.165
+Completed Connect Scan against 10.0.2.163 in 14.83s (63 hosts left)
+Completed Connect Scan against 10.0.2.138 in 14.83s (62 hosts left)
+Completed Connect Scan against 10.0.2.130 in 14.90s (61 hosts left)
+Completed Connect Scan against 10.0.2.129 in 14.92s (60 hosts left)
+Completed Connect Scan against 10.0.2.137 in 14.95s (59 hosts left)
+Completed Connect Scan against 10.0.2.133 in 14.98s (58 hosts left)
+Completed Connect Scan against 10.0.2.131 in 15.00s (57 hosts left)
+Completed Connect Scan against 10.0.2.136 in 15.02s (56 hosts left)
+Completed Connect Scan against 10.0.2.134 in 15.03s (55 hosts left)
+Completed Connect Scan against 10.0.2.132 in 15.03s (54 hosts left)
+Completed Connect Scan against 10.0.2.135 in 15.05s (53 hosts left)
+Completed Connect Scan against 10.0.2.139 in 15.07s (52 hosts left)
+Completed Connect Scan against 10.0.2.167 in 15.07s (51 hosts left)
+Completed Connect Scan against 10.0.2.166 in 15.09s (50 hosts left)
+Completed Connect Scan against 10.0.2.179 in 15.11s (49 hosts left)
+Completed Connect Scan against 10.0.2.154 in 15.12s (48 hosts left)
+Completed Connect Scan against 10.0.2.155 in 15.12s (47 hosts left)
+Completed Connect Scan against 10.0.2.153 in 15.12s (46 hosts left)
+Completed Connect Scan against 10.0.2.140 in 15.13s (45 hosts left)
+Completed Connect Scan against 10.0.2.152 in 15.13s (44 hosts left)
+Completed Connect Scan against 10.0.2.143 in 15.14s (43 hosts left)
+Completed Connect Scan against 10.0.2.142 in 15.15s (42 hosts left)
+Completed Connect Scan against 10.0.2.169 in 15.15s (41 hosts left)
+Completed Connect Scan against 10.0.2.178 in 15.15s (40 hosts left)
+Completed Connect Scan against 10.0.2.180 in 15.15s (39 hosts left)
+Completed Connect Scan against 10.0.2.191 in 15.15s (38 hosts left)
+Completed Connect Scan against 10.0.2.128 in 15.15s (37 hosts left)
+Completed Connect Scan against 10.0.2.168 in 15.15s (36 hosts left)
+Completed Connect Scan against 10.0.2.176 in 15.15s (35 hosts left)
+Completed Connect Scan against 10.0.2.177 in 15.16s (34 hosts left)
+Completed Connect Scan against 10.0.2.156 in 15.16s (33 hosts left)
+Completed Connect Scan against 10.0.2.185 in 15.16s (32 hosts left)
+Completed Connect Scan against 10.0.2.141 in 15.16s (31 hosts left)
+Completed Connect Scan against 10.0.2.144 in 15.16s (30 hosts left)
+Completed Connect Scan against 10.0.2.148 in 15.16s (29 hosts left)
+Completed Connect Scan against 10.0.2.172 in 15.16s (28 hosts left)
+Completed Connect Scan against 10.0.2.151 in 15.17s (27 hosts left)
+Completed Connect Scan against 10.0.2.173 in 15.17s (26 hosts left)
+Completed Connect Scan against 10.0.2.181 in 15.17s (25 hosts left)
+Completed Connect Scan against 10.0.2.145 in 15.18s (24 hosts left)
+Completed Connect Scan against 10.0.2.147 in 15.18s (23 hosts left)
+Completed Connect Scan against 10.0.2.149 in 15.18s (22 hosts left)
+Completed Connect Scan against 10.0.2.175 in 15.18s (21 hosts left)
+Completed Connect Scan against 10.0.2.182 in 15.18s (20 hosts left)
+Completed Connect Scan against 10.0.2.186 in 15.18s (19 hosts left)
+Completed Connect Scan against 10.0.2.189 in 15.18s (18 hosts left)
+Completed Connect Scan against 10.0.2.150 in 15.18s (17 hosts left)
+Completed Connect Scan against 10.0.2.157 in 15.18s (16 hosts left)
+Completed Connect Scan against 10.0.2.170 in 15.18s (15 hosts left)
+Completed Connect Scan against 10.0.2.174 in 15.18s (14 hosts left)
+Completed Connect Scan against 10.0.2.183 in 15.18s (13 hosts left)
+Completed Connect Scan against 10.0.2.190 in 15.18s (12 hosts left)
+Completed Connect Scan against 10.0.2.146 in 15.19s (11 hosts left)
+Completed Connect Scan against 10.0.2.158 in 15.19s (10 hosts left)
+Completed Connect Scan against 10.0.2.159 in 15.19s (9 hosts left)
+Completed Connect Scan against 10.0.2.160 in 15.19s (8 hosts left)
+Completed Connect Scan against 10.0.2.161 in 15.19s (7 hosts left)
+Completed Connect Scan against 10.0.2.171 in 15.19s (6 hosts left)
+Completed Connect Scan against 10.0.2.184 in 15.19s (5 hosts left)
+Completed Connect Scan against 10.0.2.187 in 15.19s (4 hosts left)
+Completed Connect Scan against 10.0.2.188 in 15.19s (3 hosts left)
+Completed Connect Scan against 10.0.2.164 in 15.36s (2 hosts left)
+Completed Connect Scan against 10.0.2.162 in 15.37s (1 host left)
+Discovered open port 5357/tcp on 10.0.2.165
+Completed Connect Scan at 21:44, 20.93s elapsed (64000 total ports)
+Nmap scan report for 10.0.2.128
+Host is up (0.000056s latency).
+All 1000 scanned ports on 10.0.2.128 are filtered
+
+Nmap scan report for 10.0.2.129
+Host is up (0.000057s latency).
+All 1000 scanned ports on 10.0.2.129 are filtered
+
+Nmap scan report for 10.0.2.130
+Host is up (0.000061s latency).
+All 1000 scanned ports on 10.0.2.130 are filtered
+
+Nmap scan report for 10.0.2.131
+Host is up (0.000068s latency).
+All 1000 scanned ports on 10.0.2.131 are filtered
+
+Nmap scan report for 10.0.2.132
+Host is up (0.000052s latency).
+All 1000 scanned ports on 10.0.2.132 are filtered
+
+Nmap scan report for 10.0.2.133
+Host is up (0.000054s latency).
+All 1000 scanned ports on 10.0.2.133 are filtered
+
+Nmap scan report for 10.0.2.134
+Host is up (0.000046s latency).
+All 1000 scanned ports on 10.0.2.134 are filtered
+
+Nmap scan report for 10.0.2.135
+Host is up (0.000053s latency).
+All 1000 scanned ports on 10.0.2.135 are filtered
+
+Nmap scan report for 10.0.2.136
+Host is up (0.000043s latency).
+All 1000 scanned ports on 10.0.2.136 are filtered
+
+Nmap scan report for 10.0.2.137
+Host is up (0.000056s latency).
+All 1000 scanned ports on 10.0.2.137 are filtered
+
+Nmap scan report for 10.0.2.138
+Host is up (0.000037s latency).
+All 1000 scanned ports on 10.0.2.138 are filtered
+
+Nmap scan report for 10.0.2.139
+Host is up (0.000044s latency).
+All 1000 scanned ports on 10.0.2.139 are filtered
+
+Nmap scan report for 10.0.2.140
+Host is up (0.000051s latency).
+All 1000 scanned ports on 10.0.2.140 are filtered
+
+Nmap scan report for 10.0.2.141
+Host is up (0.000053s latency).
+All 1000 scanned ports on 10.0.2.141 are filtered
+
+Nmap scan report for 10.0.2.142
+Host is up (0.000084s latency).
+All 1000 scanned ports on 10.0.2.142 are filtered
+
+Nmap scan report for 10.0.2.143
+Host is up (0.000038s latency).
+All 1000 scanned ports on 10.0.2.143 are filtered
+
+Nmap scan report for 10.0.2.144
+Host is up (0.000051s latency).
+All 1000 scanned ports on 10.0.2.144 are filtered
+
+Nmap scan report for 10.0.2.145
+Host is up (0.000061s latency).
+All 1000 scanned ports on 10.0.2.145 are filtered
+
+Nmap scan report for 10.0.2.146
+Host is up (0.000054s latency).
+All 1000 scanned ports on 10.0.2.146 are filtered
+
+Nmap scan report for 10.0.2.147
+Host is up (0.000053s latency).
+All 1000 scanned ports on 10.0.2.147 are filtered
+
+Nmap scan report for 10.0.2.148
+Host is up (0.000035s latency).
+All 1000 scanned ports on 10.0.2.148 are filtered
+
+Nmap scan report for 10.0.2.149
+Host is up (0.000060s latency).
+All 1000 scanned ports on 10.0.2.149 are filtered
+
+Nmap scan report for 10.0.2.150
+Host is up (0.000059s latency).
+All 1000 scanned ports on 10.0.2.150 are filtered
+
+Nmap scan report for 10.0.2.151
+Host is up (0.000038s latency).
+All 1000 scanned ports on 10.0.2.151 are filtered
+
+Nmap scan report for 10.0.2.152
+Host is up (0.000061s latency).
+All 1000 scanned ports on 10.0.2.152 are filtered
+
+Nmap scan report for 10.0.2.153
+Host is up (0.000084s latency).
+All 1000 scanned ports on 10.0.2.153 are filtered
+
+Nmap scan report for 10.0.2.154
+Host is up (0.000053s latency).
+All 1000 scanned ports on 10.0.2.154 are filtered
+
+Nmap scan report for 10.0.2.155
+Host is up (0.000060s latency).
+All 1000 scanned ports on 10.0.2.155 are filtered
+
+Nmap scan report for 10.0.2.156
+Host is up (0.000057s latency).
+All 1000 scanned ports on 10.0.2.156 are filtered
+
+Nmap scan report for 10.0.2.157
+Host is up (0.000037s latency).
+All 1000 scanned ports on 10.0.2.157 are filtered
+
+Nmap scan report for 10.0.2.158
+Host is up (0.000053s latency).
+All 1000 scanned ports on 10.0.2.158 are filtered
+
+Nmap scan report for 10.0.2.159
+Host is up (0.000055s latency).
+All 1000 scanned ports on 10.0.2.159 are filtered
+
+Nmap scan report for 10.0.2.160
+Host is up (0.000060s latency).
+All 1000 scanned ports on 10.0.2.160 are filtered
+
+Nmap scan report for 10.0.2.161
+Host is up (0.000057s latency).
+All 1000 scanned ports on 10.0.2.161 are filtered
+
+Nmap scan report for 10.0.2.162
+Host is up.
+All 1000 scanned ports on 10.0.2.162 are filtered
+
+Nmap scan report for 10.0.2.163
+Host is up (0.0021s latency).
+Not shown: 999 closed ports
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap scan report for 10.0.2.164
+Host is up (0.022s latency).
+Not shown: 999 filtered ports
+PORT      STATE SERVICE
+62078/tcp open  iphone-sync
+
+Nmap scan report for 10.0.2.165
+Host is up (0.012s latency).
+Not shown: 995 filtered ports
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+5357/tcp open  wsdapi
+9000/tcp open  cslistener
+
+Nmap scan report for 10.0.2.166
+Host is up (0.000051s latency).
+All 1000 scanned ports on 10.0.2.166 are filtered
+
+Nmap scan report for 10.0.2.167
+Host is up (0.000063s latency).
+All 1000 scanned ports on 10.0.2.167 are filtered
+
+Nmap scan report for 10.0.2.168
+Host is up (0.00018s latency).
+All 1000 scanned ports on 10.0.2.168 are filtered
+
+Nmap scan report for 10.0.2.169
+Host is up (0.000080s latency).
+All 1000 scanned ports on 10.0.2.169 are filtered
+
+Nmap scan report for 10.0.2.170
+Host is up (0.000074s latency).
+All 1000 scanned ports on 10.0.2.170 are filtered
+
+Nmap scan report for 10.0.2.171
+Host is up (0.000048s latency).
+All 1000 scanned ports on 10.0.2.171 are filtered
+
+Nmap scan report for 10.0.2.172
+Host is up (0.000040s latency).
+All 1000 scanned ports on 10.0.2.172 are filtered
+
+Nmap scan report for 10.0.2.173
+Host is up (0.000042s latency).
+All 1000 scanned ports on 10.0.2.173 are filtered
+
+Nmap scan report for 10.0.2.174
+Host is up (0.000058s latency).
+All 1000 scanned ports on 10.0.2.174 are filtered
+
+Nmap scan report for 10.0.2.175
+Host is up (0.000077s latency).
+All 1000 scanned ports on 10.0.2.175 are filtered
+
+Nmap scan report for 10.0.2.176
+Host is up (0.000044s latency).
+All 1000 scanned ports on 10.0.2.176 are filtered
+
+Nmap scan report for 10.0.2.177
+Host is up (0.000052s latency).
+All 1000 scanned ports on 10.0.2.177 are filtered
+
+Nmap scan report for 10.0.2.178
+Host is up (0.000051s latency).
+All 1000 scanned ports on 10.0.2.178 are filtered
+
+Nmap scan report for 10.0.2.179
+Host is up (0.000050s latency).
+All 1000 scanned ports on 10.0.2.179 are filtered
+
+Nmap scan report for 10.0.2.180
+Host is up (0.000039s latency).
+All 1000 scanned ports on 10.0.2.180 are filtered
+
+Nmap scan report for 10.0.2.181
+Host is up (0.000060s latency).
+All 1000 scanned ports on 10.0.2.181 are filtered
+
+Nmap scan report for 10.0.2.182
+Host is up (0.000069s latency).
+All 1000 scanned ports on 10.0.2.182 are filtered
+
+Nmap scan report for 10.0.2.183
+Host is up (0.000039s latency).
+All 1000 scanned ports on 10.0.2.183 are filtered
+
+Nmap scan report for 10.0.2.184
+Host is up (0.000039s latency).
+All 1000 scanned ports on 10.0.2.184 are filtered
+
+Nmap scan report for 10.0.2.185
+Host is up (0.000038s latency).
+All 1000 scanned ports on 10.0.2.185 are filtered
+
+Nmap scan report for 10.0.2.186
+Host is up (0.000045s latency).
+All 1000 scanned ports on 10.0.2.186 are filtered
+
+Nmap scan report for 10.0.2.187
+Host is up (0.000055s latency).
+All 1000 scanned ports on 10.0.2.187 are filtered
+
+Nmap scan report for 10.0.2.188
+Host is up (0.000038s latency).
+All 1000 scanned ports on 10.0.2.188 are filtered
+
+Nmap scan report for 10.0.2.189
+Host is up (0.000047s latency).
+All 1000 scanned ports on 10.0.2.189 are filtered
+
+Nmap scan report for 10.0.2.190
+Host is up (0.000040s latency).
+All 1000 scanned ports on 10.0.2.190 are filtered
+
+Nmap scan report for 10.0.2.191
+Host is up (0.000046s latency).
+All 1000 scanned ports on 10.0.2.191 are filtered
+
+Initiating Connect Scan at 21:44
+Scanning 64 hosts [1000 ports/host]
+Discovered open port 443/tcp on 10.0.2.228
+Discovered open port 8080/tcp on 10.0.2.228
+Discovered open port 22/tcp on 10.0.2.221
+Discovered open port 22/tcp on 10.0.2.227
+Discovered open port 22/tcp on 10.0.2.224
+Discovered open port 22/tcp on 10.0.2.226
+Discovered open port 80/tcp on 10.0.2.228
+Discovered open port 22/tcp on 10.0.2.223
+Discovered open port 22/tcp on 10.0.2.219
+Discovered open port 22/tcp on 10.0.2.220
+Discovered open port 9220/tcp on 10.0.2.228
+Discovered open port 515/tcp on 10.0.2.228
+Discovered open port 631/tcp on 10.0.2.228
+Completed Connect Scan against 10.0.2.196 in 19.15s (63 hosts left)
+Completed Connect Scan against 10.0.2.195 in 19.16s (62 hosts left)
+Completed Connect Scan against 10.0.2.214 in 19.16s (61 hosts left)
+Completed Connect Scan against 10.0.2.200 in 19.17s (60 hosts left)
+Completed Connect Scan against 10.0.2.199 in 19.18s (59 hosts left)
+Completed Connect Scan against 10.0.2.193 in 19.18s (58 hosts left)
+Completed Connect Scan against 10.0.2.194 in 19.19s (57 hosts left)
+Completed Connect Scan against 10.0.2.202 in 19.19s (56 hosts left)
+Completed Connect Scan against 10.0.2.201 in 19.20s (55 hosts left)
+Completed Connect Scan against 10.0.2.213 in 19.20s (54 hosts left)
+Completed Connect Scan against 10.0.2.208 in 19.22s (53 hosts left)
+Completed Connect Scan against 10.0.2.207 in 19.22s (52 hosts left)
+Discovered open port 9100/tcp on 10.0.2.228
+Completed Connect Scan against 10.0.2.197 in 19.24s (51 hosts left)
+Completed Connect Scan against 10.0.2.198 in 19.26s (50 hosts left)
+Completed Connect Scan against 10.0.2.211 in 19.26s (49 hosts left)
+Completed Connect Scan against 10.0.2.212 in 19.26s (48 hosts left)
+Completed Connect Scan against 10.0.2.240 in 19.27s (47 hosts left)
+Completed Connect Scan against 10.0.2.215 in 19.28s (46 hosts left)
+Completed Connect Scan against 10.0.2.245 in 19.28s (45 hosts left)
+Completed Connect Scan against 10.0.2.192 in 19.29s (44 hosts left)
+Completed Connect Scan against 10.0.2.241 in 19.30s (43 hosts left)
+Completed Connect Scan against 10.0.2.209 in 19.30s (42 hosts left)
+Completed Connect Scan against 10.0.2.239 in 19.30s (41 hosts left)
+Completed Connect Scan against 10.0.2.246 in 19.30s (40 hosts left)
+Completed Connect Scan against 10.0.2.255 in 19.31s (39 hosts left)
+Completed Connect Scan against 10.0.2.203 in 19.31s (38 hosts left)
+Completed Connect Scan against 10.0.2.205 in 19.32s (37 hosts left)
+Completed Connect Scan against 10.0.2.206 in 19.32s (36 hosts left)
+Completed Connect Scan against 10.0.2.210 in 19.32s (35 hosts left)
+Completed Connect Scan against 10.0.2.238 in 19.32s (34 hosts left)
+Completed Connect Scan against 10.0.2.244 in 19.32s (33 hosts left)
+Completed Connect Scan against 10.0.2.251 in 19.32s (32 hosts left)
+Completed Connect Scan against 10.0.2.252 in 19.34s (31 hosts left)
+Completed Connect Scan against 10.0.2.204 in 19.34s (30 hosts left)
+Completed Connect Scan against 10.0.2.248 in 19.34s (29 hosts left)
+Completed Connect Scan against 10.0.2.249 in 19.34s (28 hosts left)
+Completed Connect Scan against 10.0.2.243 in 19.35s (27 hosts left)
+Completed Connect Scan against 10.0.2.247 in 19.35s (26 hosts left)
+Completed Connect Scan against 10.0.2.237 in 19.35s (25 hosts left)
+Completed Connect Scan against 10.0.2.236 in 19.36s (24 hosts left)
+Completed Connect Scan against 10.0.2.250 in 19.36s (23 hosts left)
+Completed Connect Scan against 10.0.2.235 in 19.36s (22 hosts left)
+Completed Connect Scan against 10.0.2.216 in 19.37s (21 hosts left)
+Completed Connect Scan against 10.0.2.242 in 19.37s (20 hosts left)
+Completed Connect Scan against 10.0.2.234 in 19.38s (19 hosts left)
+Completed Connect Scan against 10.0.2.233 in 19.38s (18 hosts left)
+Completed Connect Scan against 10.0.2.253 in 19.38s (17 hosts left)
+Completed Connect Scan against 10.0.2.254 in 19.39s (16 hosts left)
+Completed Connect Scan against 10.0.2.232 in 19.40s (15 hosts left)
+Completed Connect Scan against 10.0.2.218 in 19.41s (14 hosts left)
+Completed Connect Scan against 10.0.2.231 in 19.41s (13 hosts left)
+Completed Connect Scan against 10.0.2.217 in 19.42s (12 hosts left)
+Completed Connect Scan against 10.0.2.225 in 19.42s (11 hosts left)
+Completed Connect Scan against 10.0.2.222 in 19.42s (10 hosts left)
+Completed Connect Scan against 10.0.2.230 in 19.42s (9 hosts left)
+Completed Connect Scan against 10.0.2.229 in 19.43s (8 hosts left)
+Completed Connect Scan against 10.0.2.227 in 19.52s (7 hosts left)
+Completed Connect Scan against 10.0.2.226 in 19.54s (6 hosts left)
+Completed Connect Scan against 10.0.2.219 in 19.55s (5 hosts left)
+Completed Connect Scan against 10.0.2.224 in 19.58s (4 hosts left)
+Completed Connect Scan against 10.0.2.223 in 19.60s (3 hosts left)
+Completed Connect Scan against 10.0.2.220 in 19.60s (2 hosts left)
+Completed Connect Scan against 10.0.2.221 in 19.61s (1 host left)
+Completed Connect Scan at 21:44, 19.61s elapsed (64000 total ports)
+Nmap scan report for 10.0.2.192
+Host is up (0.000054s latency).
+All 1000 scanned ports on 10.0.2.192 are filtered
+
+Nmap scan report for 10.0.2.193
+Host is up (0.000056s latency).
+All 1000 scanned ports on 10.0.2.193 are filtered
+
+Nmap scan report for 10.0.2.194
+Host is up (0.000034s latency).
+All 1000 scanned ports on 10.0.2.194 are filtered
+
+Nmap scan report for 10.0.2.195
+Host is up (0.000034s latency).
+All 1000 scanned ports on 10.0.2.195 are filtered
+
+Nmap scan report for 10.0.2.196
+Host is up (0.000038s latency).
+All 1000 scanned ports on 10.0.2.196 are filtered
+
+Nmap scan report for 10.0.2.197
+Host is up (0.000055s latency).
+All 1000 scanned ports on 10.0.2.197 are filtered
+
+Nmap scan report for 10.0.2.198
+Host is up (0.000031s latency).
+All 1000 scanned ports on 10.0.2.198 are filtered
+
+Nmap scan report for 10.0.2.199
+Host is up (0.000033s latency).
+All 1000 scanned ports on 10.0.2.199 are filtered
+
+Nmap scan report for 10.0.2.200
+Host is up (0.000036s latency).
+All 1000 scanned ports on 10.0.2.200 are filtered
+
+Nmap scan report for 10.0.2.201
+Host is up (0.000034s latency).
+All 1000 scanned ports on 10.0.2.201 are filtered
+
+Nmap scan report for 10.0.2.202
+Host is up (0.000039s latency).
+All 1000 scanned ports on 10.0.2.202 are filtered
+
+Nmap scan report for 10.0.2.203
+Host is up (0.000040s latency).
+All 1000 scanned ports on 10.0.2.203 are filtered
+
+Nmap scan report for 10.0.2.204
+Host is up (0.000046s latency).
+All 1000 scanned ports on 10.0.2.204 are filtered
+
+Nmap scan report for 10.0.2.205
+Host is up (0.000051s latency).
+All 1000 scanned ports on 10.0.2.205 are filtered
+
+Nmap scan report for 10.0.2.206
+Host is up (0.000040s latency).
+All 1000 scanned ports on 10.0.2.206 are filtered
+
+Nmap scan report for 10.0.2.207
+Host is up (0.000036s latency).
+All 1000 scanned ports on 10.0.2.207 are filtered
+
+Nmap scan report for 10.0.2.208
+Host is up (0.000043s latency).
+All 1000 scanned ports on 10.0.2.208 are filtered
+
+Nmap scan report for 10.0.2.209
+Host is up (0.000028s latency).
+All 1000 scanned ports on 10.0.2.209 are filtered
+
+Nmap scan report for 10.0.2.210
+Host is up (0.000040s latency).
+All 1000 scanned ports on 10.0.2.210 are filtered
+
+Nmap scan report for 10.0.2.211
+Host is up (0.000034s latency).
+All 1000 scanned ports on 10.0.2.211 are filtered
+
+Nmap scan report for 10.0.2.212
+Host is up (0.000034s latency).
+All 1000 scanned ports on 10.0.2.212 are filtered
+
+Nmap scan report for 10.0.2.213
+Host is up (0.000039s latency).
+All 1000 scanned ports on 10.0.2.213 are filtered
+
+Nmap scan report for 10.0.2.214
+Host is up (0.000057s latency).
+All 1000 scanned ports on 10.0.2.214 are filtered
+
+Nmap scan report for 10.0.2.215
+Host is up (0.000043s latency).
+All 1000 scanned ports on 10.0.2.215 are filtered
+
+Nmap scan report for 10.0.2.216
+Host is up (0.000051s latency).
+All 1000 scanned ports on 10.0.2.216 are filtered
+
+Nmap scan report for 10.0.2.217
+Host is up (0.000059s latency).
+All 1000 scanned ports on 10.0.2.217 are filtered
+
+Nmap scan report for 10.0.2.218
+Host is up (0.000043s latency).
+All 1000 scanned ports on 10.0.2.218 are filtered
+
+Nmap scan report for 10.0.2.219
+Host is up (0.0055s latency).
+Not shown: 999 filtered ports
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap scan report for 10.0.2.220
+Host is up (0.0043s latency).
+Not shown: 999 filtered ports
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap scan report for 10.0.2.221
+Host is up (0.0085s latency).
+Not shown: 999 filtered ports
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap scan report for 10.0.2.222
+Host is up (0.000044s latency).
+All 1000 scanned ports on 10.0.2.222 are filtered
+
+Nmap scan report for 10.0.2.223
+Host is up (0.0042s latency).
+Not shown: 999 filtered ports
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap scan report for 10.0.2.224
+Host is up (0.0063s latency).
+Not shown: 999 filtered ports
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap scan report for 10.0.2.225
+Host is up (0.000056s latency).
+All 1000 scanned ports on 10.0.2.225 are filtered
+
+Nmap scan report for 10.0.2.226
+Host is up (0.0061s latency).
+Not shown: 999 filtered ports
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap scan report for 10.0.2.227
+Host is up (0.0043s latency).
+Not shown: 999 filtered ports
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap scan report for 10.0.2.228
+Host is up (0.015s latency).
+Not shown: 993 filtered ports
+PORT     STATE SERVICE
+80/tcp   open  http
+443/tcp  open  https
+515/tcp  open  printer
+631/tcp  open  ipp
+8080/tcp open  http-proxy
+9100/tcp open  jetdirect
+9220/tcp open  unknown
+
+Nmap scan report for 10.0.2.229
+Host is up (0.000047s latency).
+All 1000 scanned ports on 10.0.2.229 are filtered
+
+Nmap scan report for 10.0.2.230
+Host is up (0.000066s latency).
+All 1000 scanned ports on 10.0.2.230 are filtered
+
+Nmap scan report for 10.0.2.231
+Host is up (0.000048s latency).
+All 1000 scanned ports on 10.0.2.231 are filtered
+
+Nmap scan report for 10.0.2.232
+Host is up (0.000039s latency).
+All 1000 scanned ports on 10.0.2.232 are filtered
+
+Nmap scan report for 10.0.2.233
+Host is up (0.000032s latency).
+All 1000 scanned ports on 10.0.2.233 are filtered
+
+Nmap scan report for 10.0.2.234
+Host is up (0.000056s latency).
+All 1000 scanned ports on 10.0.2.234 are filtered
+
+Nmap scan report for 10.0.2.235
+Host is up (0.000034s latency).
+All 1000 scanned ports on 10.0.2.235 are filtered
+
+Nmap scan report for 10.0.2.236
+Host is up (0.000057s latency).
+All 1000 scanned ports on 10.0.2.236 are filtered
+
+Nmap scan report for 10.0.2.237
+Host is up (0.000050s latency).
+All 1000 scanned ports on 10.0.2.237 are filtered
+
+Nmap scan report for 10.0.2.238
+Host is up (0.000041s latency).
+All 1000 scanned ports on 10.0.2.238 are filtered
+
+Nmap scan report for 10.0.2.239
+Host is up (0.000068s latency).
+All 1000 scanned ports on 10.0.2.239 are filtered
+
+Nmap scan report for 10.0.2.240
+Host is up (0.000037s latency).
+All 1000 scanned ports on 10.0.2.240 are filtered
+
+Nmap scan report for 10.0.2.241
+Host is up (0.000057s latency).
+All 1000 scanned ports on 10.0.2.241 are filtered
+
+Nmap scan report for 10.0.2.242
+Host is up (0.000052s latency).
+All 1000 scanned ports on 10.0.2.242 are filtered
+
+Nmap scan report for 10.0.2.243
+Host is up (0.000059s latency).
+All 1000 scanned ports on 10.0.2.243 are filtered
+
+Nmap scan report for 10.0.2.244
+Host is up (0.000048s latency).
+All 1000 scanned ports on 10.0.2.244 are filtered
+
+Nmap scan report for 10.0.2.245
+Host is up (0.000031s latency).
+All 1000 scanned ports on 10.0.2.245 are filtered
+
+Nmap scan report for 10.0.2.246
+Host is up (0.000031s latency).
+All 1000 scanned ports on 10.0.2.246 are filtered
+
+Nmap scan report for 10.0.2.247
+Host is up (0.000043s latency).
+All 1000 scanned ports on 10.0.2.247 are filtered
+
+Nmap scan report for 10.0.2.248
+Host is up (0.000035s latency).
+All 1000 scanned ports on 10.0.2.248 are filtered
+
+Nmap scan report for 10.0.2.249
+Host is up (0.000031s latency).
+All 1000 scanned ports on 10.0.2.249 are filtered
+
+Nmap scan report for 10.0.2.250
+Host is up (0.000029s latency).
+All 1000 scanned ports on 10.0.2.250 are filtered
+
+Nmap scan report for 10.0.2.251
+Host is up (0.000050s latency).
+All 1000 scanned ports on 10.0.2.251 are filtered
+
+Nmap scan report for 10.0.2.252
+Host is up (0.000044s latency).
+All 1000 scanned ports on 10.0.2.252 are filtered
+
+Nmap scan report for 10.0.2.253
+Host is up (0.000049s latency).
+All 1000 scanned ports on 10.0.2.253 are filtered
+
+Nmap scan report for 10.0.2.254
+Host is up (0.000057s latency).
+All 1000 scanned ports on 10.0.2.254 are filtered
+
+Nmap scan report for 10.0.2.255
+Host is up (0.000034s latency).
+All 1000 scanned ports on 10.0.2.255 are filtered
+
+Read data files from: /usr/local/bin/../share/nmap
+Nmap done: 256 IP addresses (256 hosts up) scanned in 84.20 seconds

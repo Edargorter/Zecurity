@@ -1,0 +1,1 @@
+curl -k https://reqbin.com/echo -x 127.0.0.1:8081 -U user:pass
