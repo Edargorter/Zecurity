@@ -10,6 +10,9 @@ Status: Incomplete
 '''
 
 import socket
+import json
+import urllib.request 
+#import urllib3 #Connection pooling, TLS verification and thread safety 
 import _thread
 import time 
 import os
@@ -114,7 +117,7 @@ while 1:
         print()
         data = b''
 
-        while True:
+        while 1:
             ddata = conn.recv(4096)
             if not ddata:
                 break
@@ -130,7 +133,7 @@ while 1:
         f.write(request)
         f.close()
 
-        while True:
+        while 1:
             if not LOG:
                 cont = input("[CLPI] Forward [f] Edit [e]: ")
                 if cont and cont[0] in ["E", "e"]:
@@ -142,15 +145,20 @@ while 1:
                     f = open(os.path.join(folder_dir, file_string + str(packet_id)), 'r')
                     request = f.read()
                     f.close()
-                elif cont and cont[0] in ["F", 'f']:
+                elif cont and cont[0] in ["F", "f"]:
                     print("[CLPI] Forwarding request")
 
             try:
                 host_index = request.find("Host: ") + 5
+                print("HOST: {}".format(host_index))
                 end_index = request[host_index:].find('\n') + host_index
+                print("END: {}".format(end_index))
                 dest = request[host_index:end_index].strip().split(":")
+                print("DEST: {}".format(dest))
                 dest_url = dest[0]
+                print("DEST URL: {}".format(dest_url))
                 dest_port = 80
+                print("HOST: {}".format(dest_port))
                 if len(dest) >= 2:
                     dest_port = int(dest[1])
                 print("To: ", dest_url, dest_port)
@@ -159,27 +167,42 @@ while 1:
                 print("[CLPI] Incorrect request format.")
                 continue
 
-        #Create socket to communicate with destination server
-        client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-        client.connect((dest_url, dest_port))
-        client.send(bytes(request, encoding=ENCODING, errors="ignore"))
+        try:
+            #Create socket to communicate with destination server
+            client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+            client.connect((dest_url, dest_port))
+            print("\nSending request:")
+            print(request)
+            client.send(bytes(request, encoding=ENCODING, errors="ignore"))
 
-        data = b'' #Receive from destination server
-        while True:
+            data = b'' #Receive from destination server
+            print("Reception")
             ddata = client.recv(4096)
-            if data[-4:] == END_OF_PACKET:
-                break
             data += ddata
+            if ddata:
+                while ddata:
+                    time.sleep(1)
+                    ddata = client.recv(4096)
+                    print(data)
+                    if data[-4:] == END_OF_PACKET:
+                        break
+                    data += ddata
+            else:
+                print("No response from server")
+                
 
-        response = data.decode(ENCODING, errors="ignore")
-        print("============================================")
-        print("[CLPI] Response")
-        print("============================================")
-        print(response)
-        print("============================================")
-        
-        #Send response back to browser
-        conn.send(bytes(response, encoding=ENCODING, errors="ignore"))
+            response = data.decode(ENCODING, errors="ignore")
+            print("============================================")
+            print("[CLPI] Response")
+            print("============================================")
+            print(response)
+            print("============================================")
+            
+            #Send response back to browser
+            conn.send(bytes(response, encoding=ENCODING, errors="ignore"))
+        except Exception as e:
+            print("Could not connect to destination")
+            continue 
 
         packet_id += 1
 

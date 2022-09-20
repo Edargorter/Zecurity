@@ -1,6 +1,6 @@
 # Zecurity Toolz
 
-A collection of tools I've built and useful resources that I record for safekeeping.
+A collection of useful tools (including some of my own) and resources that I record for safekeeping.
 
 ## Useful links:
 
@@ -26,6 +26,9 @@ https://malwareunicorn.org/workshops/re102.html#0
 https://github.com/TobalJackson/2017-SIT-RE-Presentation
 https://www.vx-underground.org/
 
+Programming Languages:
+https://hackingcpp.com/
+
 Ghidra: 
 https://ghidra-sre.org/
 
@@ -40,9 +43,11 @@ https://gist.github.com/MohamedAlaa/2961058
 
 Cryptography:
 Attacks on RSA: https://www.utc.edu/center-academic-excellence-cyber-defense/pdfs/course-paper-5600-rsa.pdf
+Crypto info: https://cryptobook.nakov.com/
 
 File Types Search:
 https://www.garykessler.net/library/file_sigs.html
+https://docs.fileformat.com/
 
 Electronics:
 https://electroagenda.com/en/a-summary-of-electronics/
