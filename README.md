@@ -51,3 +51,6 @@ https://docs.fileformat.com/
 
 Electronics:
 https://electroagenda.com/en/a-summary-of-electronics/
+
+HexEdit:
+https://hexed.it/
