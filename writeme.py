@@ -23,7 +23,7 @@ class Writeme:
         for line in self.lines:
             for c in line:
                 print(c, end="", flush=True)
-                if c == " " or c == "\t":
+                if c in [" ", "\t"]:
                     time.sleep(self.rate/2)
                 else:
                     time.sleep(self.rate)

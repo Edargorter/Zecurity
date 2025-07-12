@@ -8,7 +8,6 @@ and HEAD requests in a fairly straightforward manner.
 see: https://gist.github.com/UniIsland/3346170
 """
  
- 
 __version__ = "0.1"
 __all__ = ["SimpleHTTPRequestHandler"]
 __author__ = "bones7456"
@@ -23,7 +22,6 @@ import shutil
 import mimetypes
 import re
 from io import BytesIO
- 
  
 class SimpleHTTPRequestHandler(http.server.BaseHTTPRequestHandler):
  
